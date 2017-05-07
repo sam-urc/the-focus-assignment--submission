@@ -26,4 +26,4 @@ Follow every step of these instructions carefully, and avoid submitting this ass
 
 ## When to Submit
 
-This assignment is due by 11:59 PM on Friday, 12 May 2017. However, **your window for submission is between noon and 11:59 PM on Friday, 12 May 2017.** **_Do not submit before then._**
+This assignment is due by 11:59 PM on Friday, 12 May 2017. However, **your window for submission is between 8:00 AM and 11:59 PM on Friday, 12 May 2017.** **_Do not submit before then._**
