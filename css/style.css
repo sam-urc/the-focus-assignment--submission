@@ -1,0 +1,310 @@
+
+
+@font-face {
+    font-family: 'pacifico';
+    src: url('../fonts/Pacifico/Q_Z9mv4hySLTMoMjnk_rCXYhjbSpvc47ee6xR_80Hnw.woff2')
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/Raleway/QAUlVt1jXOgQavlW5wEfxQLUuEpTyoUstqEm5AMlJo4.woff2')
+}
+
+@font-face {
+    font-family: 'raleway light';
+    src: url('../fonts/Raleway/-_Ctzj9b56b8RgXW8FAriQzyDMXhdD8sAj6OAJTFsBI.woff2')
+}
+
+@font-face {
+    font-family: 'raleway semibold';
+    src: url('../fonts/Raleway/xkvoNo9fC8O2RDydKj12bwzyDMXhdD8sAj6OAJTFsBI.woff2')
+}
+
+
+body {
+	width: 1200px;
+	height: 2494px;
+	font-family: 'helvetica neue', 'helvetica';
+	color: #848484;
+	font-size: 16px;
+	background-color: #f4f4f4;
+}
+
+header {
+	background-image: url(../img/large-banner-image.png);
+	width: 1600px;
+	height: 700px;
+}
+
+section {
+	width: 1600px;
+}
+
+section:nth-of-type(even) {
+    background: #e3e3e3;
+}
+
+footer {
+	background: #e3e3e3;
+	width: 1600px;
+	height: 130px;
+}
+
+h1 {
+	font-family: 'pacifico';
+	font-color: #000;
+	font-size: 60px;
+	margin-left: 92px;
+
+}
+
+h2 {
+	font-family: 'raleway light';
+	font-size: 36px;
+	margin-left: 483px;
+	margin-top: 238px;
+	color: #222;
+	position: absolute;
+}
+
+h3 {
+	font-family: 'raleway semibold';
+	font-size: 22px;
+	line-height: 25px;
+	color: #222;
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+
+.logo {
+    background-image: url(../img/focus.png);
+	width: 68px;
+	height: 68px;
+	margin: 0;
+	top: 120px;
+	position: absolute;
+	margin-left: 680px;
+	color: #222;
+
+}
+
+.arrow {
+	width: 50px;
+	height: 15px;
+	background-image: url(../img/down-arrow.png);
+	margin-left: 775px;
+	margin-top: 330px;
+	position: absolute;
+}
+
+.iphone {
+	background-image: url(../img/iphone.png);
+	width: 464px;
+	height: 806px;
+	margin-top: 400px;
+	margin-left: 575px;
+	position: absolute;
+	z-index: 1;
+}
+
+.dot1 {
+	width: 26px;
+	height: 26px;
+	background-image: url(../img/white-dot.png);
+	z-index: 3;
+	margin-top: 205px;
+	margin-left: 275px;
+}
+
+.dot2 {
+	width: 26px;
+	height: 26px;
+	background-image: url(../img/white-dot.png);
+	z-index: 3;
+	margin-top: 65px;
+	margin-left: 145px;
+}
+
+.dot3 {
+	width: 32px;
+	height: 32px;
+	background-image: url(../img/black-dot.png);
+	z-index: 3;
+	margin-top: 90px;
+	margin-left: 280px;
+}
+
+.dot4 {
+	width: 26px;
+	height: 26px;
+	background-image: url(../img/white-dot.png);
+	z-index: 3;
+	margin-top: -30px;
+	margin-left: 145px;
+}
+
+.cursor {
+	width: 17px;
+	height: 19px;
+	background-image: url(../img/cursor.png);
+	z-index: 7;
+	margin-left:2px;
+	margin-top: -15px;
+}
+
+.angled-line {
+	width: 137px;
+	height: 112px;
+	background-image: url(../img/angled-line.png);
+	z-index: 3;
+	margin-left: 290px;
+}
+
+.features {
+	height: 500px;
+}
+
+.featureleft {
+	margin-left: 270px;
+	width: 300px;
+	height: 125px;
+	text-align: left;
+	position: absolute;
+	line-height: 26px;
+}
+
+.featureright {
+	margin-left: 1027px;
+	width: 300px;
+	height: 125px;
+	text-align: left;
+	position: absolute;
+	line-height: 26px;
+}
+
+.app {
+	height: 425px;
+}
+
+.apptext {
+	margin-left: 210px;
+	width: 540px;
+	text-align: left;
+	position: absolute;
+	line-height: 26px;
+}
+
+.media {
+	width: 68px;
+	height: 68px;
+	padding: 20px 20px 0px 0px;
+	float: left;
+}
+
+.player {
+	padding-top: 60px;
+
+}
+
+.video {
+	width: 500px;
+	height: 307px;
+	background-image: url(../img/video-image.png);
+	margin-left: 888px;
+	z-index: 1;
+
+}
+
+.play {
+	float: left;
+	margin-left: 20px;
+	padding-right: 10px;
+	margin-top: 240px;
+	z-index: 4px;
+}
+
+.quote {
+	height: 125px;
+}
+
+.testimonial {
+	width: 1200px;
+	margin-top: 60px;
+	margin-left: 195px;
+	font-family: 'raleway';
+	font-size: 24px;
+	line-height: 24px;
+	text-align: center;
+	color: #000;
+}
+
+.quotee {
+	font-family: 'helvetica neue', 'helvetica';
+	margin-top: 20px;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: center;
+}
+
+.people {
+	height: 318px;
+}
+
+.banner {
+	height: 318px;
+	width: 1600px;
+	background-image: url(../img/people.png);
+}
+
+.active-man {
+	width: 80px;
+	height: 80px;
+	padding-top: 80px;
+	padding-left: 914px;
+}
+
+.active-cursor {
+	width: 17px;
+	height: 19px;
+	margin-top: -30px;
+	margin-left: 9px;
+	z-index: 6px;
+}
+
+.accounts {
+	height: 180px;
+}
+
+.say-hi {
+	font-family: 'raleway semibold';
+	font-size: 24px;
+	line-height: 24px;
+	color: #000;
+	text-align: center;
+	margin-top: 55px;
+}
+
+.lorem {
+	line-height: 26px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.logo-accs {
+	width: 38px;
+	height: 38px;
+	padding: 20px 5px 0px 5px;
+	display: inline-block;
+}
+
+.pin-cursor {
+	width: 17px;
+	height: 19px;
+	z-index: 6px;
+}
+
+.footer {
+	text-align: center;
+    padding: 50px 0px 50px 0px;
+	word-spacing: 25px;
+}
